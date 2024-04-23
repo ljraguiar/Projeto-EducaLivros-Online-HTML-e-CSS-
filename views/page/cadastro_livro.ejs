@@ -1,0 +1,59 @@
+<%- include('../partials/test.ejs') %>
+    <body>
+        <div class="container">
+            <div class="form-image">
+                <img src="/img/cadastro_user.png" alt="">
+            </div>
+            <div class="form">
+                <form action="/livro/save" method="post">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastrar Livro</h1>
+                        </div>
+                        <div class="login-button">
+                            <button><a href="/comprar">Comprar</a></button>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="nome_livro">Nome Livro</label>
+                            <input id="firstname" type="text" name="nome_livro" placeholder="Digite o nome do livro"
+                                required>
+                        </div>
+
+
+                        <div class="input-box">
+                            <label for="date"><b>Data do livro</b></label>
+                            <input type="date" name="data_resgate" id="date" required>
+                        </div>
+
+
+                        <div class="input-box">
+                            <label for="descricao">Descricao</label>
+                            <input id="descricao" type="text" name="comentario" placeholder="Digite a descricao"
+                                required>
+                        </div>
+
+
+
+                        <div class="gender-inputs">
+                            <div class="input-box">
+                                <label for="preco">Preço</label>
+
+                                <input id="firstname" type="text" name="preco" placeholder="Digite o preço do livro"
+                                required>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="continue-button">
+                        <div><input type="submit" class="btn btn-success" name="" id="" value="Cadastrar Livro"></div>
+                    </form>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+    

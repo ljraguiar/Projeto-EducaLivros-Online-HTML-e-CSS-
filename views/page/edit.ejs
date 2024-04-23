@@ -1,0 +1,62 @@
+<%- include('../partials/head_login.ejs') %>
+
+    <body>
+        <div class="container">
+            <div class="form-image">
+                <img src="assets/img//undraw_shopping_re_3wst.svg" alt="">
+            </div>
+            <div class="form">
+                <form action="/livro/update" method="post">
+                    <input type="hidden" value="<%- livro.id %>" name="id">
+                    <div class="form-header">
+
+                        <div class="title">
+
+                            <h1>Editar Livro</h1>
+                        </div>
+                        <div class="login-button">
+                            <button><a href="/comprar">Comprar</a></button>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="nome_livro">Nome Livro</label>
+                            <input id="firstname" type="text" value="<%- livro.nome_livro%>" name="nome_livro"
+                                placeholder="Digite o nome do livro" required>
+                        </div>
+
+
+                        <div class="input-box">
+                            <label for="date"><b>Data do livro</b></label>
+                            <input type="date" name="data_livro" id="date" required>
+                        </div>
+
+
+                        <div class="input-box">
+                            <label for="descricao">Descrição</label>
+                            <input id="descricao" type="text" value="<%- livro.comentario%>" name="descricao"
+                                placeholder="Digite a descricao" required>
+                        </div>
+
+
+
+                        <div class="gender-inputs">
+                            <div class="input-box">
+                                <label for="preco">Preço</label>
+
+                                <input id="comentario" type="text" value="<%- livro.preco%>" name="preco"
+                                placeholder="Digite o preço" required>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="continue-button">
+                        <div><input type="submit" class="btn btn-success" name="" id="" value="Atualizar Livro"></div>
+                </form>
+            </div>
+            </form>
+        </div>
+        </div>
+    </body>

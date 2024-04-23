@@ -1,0 +1,35 @@
+<%- include('../partials/head_adocao.ejs') %>
+
+<body>
+<form action="/livro/compra/:id" method="post">
+
+  <header class="cabecalho">
+  </header>
+
+  <main class="conteudo">
+    <section class="conteudo-principal">
+
+      <div class="conteudo-principal-escrito">
+      <% Livros.forEach((livro)=> { %>
+        <h1 class="conteudo-principal-escrito-titulo" value="<%- livro.nome_user%>"><%- livro.nome_livro %></h1>
+        <h2 class="conteudo-principal-escrito-subtitulo" value="<%- livro.nome_user%>"><%- livro.preco %></h2>
+        <a href="/livro/excluir/<%- livro.id %>" class="conteudo-principal-escrito-botao">Comprar</a>
+        <% })%>
+      </div>
+      <img src="/img/QRCode.png" alt="">
+    </section>
+
+    <section class="conteudo-secundario">
+      <h3 class="conteudo-secundario-titulo">Descrição</h3>
+      <% Livros.forEach((livro)=> { %>
+      <p class="conteudo-secundario-paragrafo" value="<%- livro.comentario%>"><%- livro.comentario %></p>
+      <% })%>
+    </section>
+  </main>
+
+  <footer class="rodape">
+  </footer>
+  </form>
+</body>
+
+</html>
