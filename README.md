@@ -46,8 +46,9 @@ Algumas das funções que estão sendo implementadas são:
 ## Modelagem
 
 <div align="center">
-    <img src="https://github.com/ljraguiar/Projeto-EducaLivros-Online-HTML-e-CSS-/issues/11#issue-2259806826" width="700px"/>
+    <img src="https://github.com/ljraguiar/Projeto-EducaLivros-Online-HTML-e-CSS-/assets/104568215/297179ed-c962-4a90-bb91-6b7cf1989b00" width="700px"/>
 </div>
+
 
 ## Executar
 Para executar o código você precisa baixar as dependências:
