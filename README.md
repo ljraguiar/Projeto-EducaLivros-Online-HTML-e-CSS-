@@ -70,7 +70,7 @@ User.sync({force: true})
 
 ## Projeto
 <div align="center">
-<img src="https://github.com/ljraguiar/Projeto-EducaLivros-Online-HTML-e-CSS-/assets/104568215/6ecd9627-3078-4e07-8922-5cba2b2f93f4" width="700px"/>
+<img src="https://github.com/ljraguiar/Projeto-EducaLivros-Online-HTML-e-CSS-/assets/104568215/b13fab92-b87b-4301-a58b-a013670c9f8c" width="700px"/>
   <img src="https://github.com/ljraguiar/Projeto-EducaLivros-Online-HTML-e-CSS-/assets/104568215/b2300696-b212-405b-89af-837f6ff2929b" width="700px"/>
   <img src="https://github.com/ljraguiar/Projeto-EducaLivros-Online-HTML-e-CSS-/assets/104568215/481e46be-525f-4daa-ab5c-c174414d6fdc" width="700px"/>
   <img src="https://github.com/ljraguiar/Projeto-EducaLivros-Online-HTML-e-CSS-/assets/104568215/e906f0e0-8395-4f2e-855d-05a456824bb8" width="700px"/>
